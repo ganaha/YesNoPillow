@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">YesNoまくら</string>
+    <string name="title_activity_main">YesNoまくら</string>
+    <string name="msg_read">読み込む？</string>
+    <string name="msg_read_yes">うん</string>
+    <string name="msg_read_no">やだ</string>
+    <string name="msg_write_readonly">タグが読取専用です。</string>
+    <string name="msg_write_sizeover">容量が足りません。</string>
+    <string name="msg_write_ok">書込OK。</string>
+    <string name="msg_write_ok_format">書込OK（フォーマット）。</string>
+    <string name="msg_write_error">書込エラー。</string>
+    <string name="msg_write_not_support">サポートされていないタグです。</string>
+    <string name="msg_write_ng">書込NG。</string>
+
+</resources>

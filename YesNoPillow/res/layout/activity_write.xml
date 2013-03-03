@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 背景画像 -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/back" />
+
+    <!-- Yes or No 画像 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <!-- Yes Image -->
+
+        <ImageView
+            android:id="@+id/image_yes"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="onClickYes"
+            android:src="@drawable/yes_on"
+            android:tag="on" />
+
+        <!-- No Image -->
+
+        <ImageView
+            android:id="@+id/image_no"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="onClickNo"
+            android:src="@drawable/no_off"
+            android:tag="off" />
+    </LinearLayout>
+
+    <!-- 書き込みボタン -->
+
+    <Button
+        android:id="@+id/button_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/selector_write"
+        android:onClick="onClick" />
+
+</FrameLayout>
