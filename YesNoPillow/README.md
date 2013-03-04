@@ -11,7 +11,7 @@ NFCタグに Yes or No を書き込んだり、読み込むだけのアプリ。
 
 - ReadActivity.java
 
-NFCタグを読み込む画面。
+    NFCタグを読み込む画面。
 
 - WriteActivity.java
 
