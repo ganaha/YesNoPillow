@@ -19,4 +19,4 @@ NFCタグに Yes or No を書き込んだり、読み込むだけのアプリ。
 
 - AbstractActivity.java
 
-    上記2クラスの既定クラス。
+    上記2クラスの基底クラス。
