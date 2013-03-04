@@ -7,15 +7,24 @@ NFCタグに Yes or No を書き込んだり、読み込むだけのアプリ。
 
 非対応のNFCタグは、IDを表示する。
 
+## アプリの概要
+
+- NFCタグにテキストデータ（「YES」または「NO」）を読み書きする。
+
+- 読み込んだテキストデータによって、表示する画像が変わる。
+
+- 対応フォーマット外のNFCは、NFCのIDのみを表示する。
+
+
 ## クラスの説明
 
 - ReadActivity.java
 
-    NFCタグを読み込む画面。
+    NFCタグを読み込む画面クラス。
 
 - WriteActivity.java
 
-    NFCタグに書き込む画面。
+    NFCタグに書き込む画面クラス。
 
 - AbstractActivity.java
 
